@@ -34,7 +34,16 @@ The scope of the project is to create a Node.js command-line application that ta
 
 ## How to use
 
-To use the application the essential packages must be installed such as 
+To use the application the essential packages must be installed such as inquirer and fs. To run tests on the application the package jest must be installed. The application is run using the terminal by typing 'node index' into the terminal. A series of prompts will then be displayed to the user that asks how the svg logo is to be generated. After all prompts have been fulfilled the svg logo will be generated in the root folder. To run a test on the application 'npm test' is inputted into the terminal and a test will be performed.
 
 
 ## Application
+[https://drive.google.com/drive/folders/1VFTvprxvJU_8KVz-WNh8FZ7V5sYk7uBo?usp=sharing] - Link to application demo video and generated sample logo.
+
+APP
+![image](https://user-images.githubusercontent.com/56829664/230480202-da612c2d-233e-47ab-ab24-d5a5cc277f08.png)
+
+TEST
+![image](https://user-images.githubusercontent.com/56829664/230480310-9d32116e-28ce-43f7-84c2-4e42e127d03d.png)
+
+
