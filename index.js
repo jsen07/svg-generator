@@ -1,5 +1,5 @@
 const inquirer = require('inquirer');
-const generateLogo = require ('./lib/generateLogo.js'); 
+const createLogo = require('./lib/createLogo.js');
 
 const fs  = require('fs');
 
@@ -7,17 +7,17 @@ const fs  = require('fs');
 const questions = [
     {
         type: "input",
-        message: "Enter text",
+        message: "Enter text (can enter up to three characters):",
         name: "text",
     },
     {
         type: "input",
-        message: "Text colour",
+        message: "Text colour: Enter a color keyword (OR a hexadecimal number)",
         name: "textColour",
     },
     {
         type: "input",
-        message: "Enter shape colour",
+        message: "Shape colour: Enter a color keyword (OR a hexadecimal number)",
         name: "shapeColour",
     },
     {
@@ -42,7 +42,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions).then(function(data) {
         if (data.text.length >= 3) {
-            writeToFile("logo.svg", generateLogo(data));
+            writeToFile("logo.svg", createLogo(data));
         }
         else {
             console.log("Description must be more than three characters")
