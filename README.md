@@ -41,9 +41,9 @@ To use the application the essential packages must be installed such as inquirer
 [https://drive.google.com/drive/folders/1VFTvprxvJU_8KVz-WNh8FZ7V5sYk7uBo?usp=sharing] - Link to application demo video and generated sample logo.
 
 APP
-![image](https://user-images.githubusercontent.com/56829664/230480202-da612c2d-233e-47ab-ab24-d5a5cc277f08.png)
+![image](https://user-images.githubusercontent.com/56829664/230481590-b0040f33-1aa7-4e1e-ab91-b89f54df1185.png)
 
 TEST
-![image](https://user-images.githubusercontent.com/56829664/230480310-9d32116e-28ce-43f7-84c2-4e42e127d03d.png)
+![image](https://user-images.githubusercontent.com/56829664/230481679-63bf2b88-90ef-41b1-bb52-42570c52cb80.png)
 
 
