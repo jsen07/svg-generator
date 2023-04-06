@@ -1,9 +1,10 @@
+//include packages needed to run app
 const inquirer = require('inquirer');
 const createLogo = require('./lib/createLogo.js');
 
 const fs  = require('fs');
 
-
+//array of prompt questions
 const questions = [
     {
         type: "input",
@@ -28,6 +29,7 @@ const questions = [
     },
 ]
 
+// function to write svg file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, function(error) {
         if (error) {
@@ -39,6 +41,7 @@ function writeToFile(fileName, data) {
     })
 }
 
+//function to initialize app
 function init() {
     inquirer.prompt(questions).then(function(data) {
         if (data.text.length >= 3) {
