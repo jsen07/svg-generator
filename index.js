@@ -4,7 +4,7 @@ const createLogo = require('./lib/createLogo.js');
 
 const fs  = require('fs');
 
-//array of prompt question
+//array of prompt questions
 const questions = [
     {
         type: "input",
